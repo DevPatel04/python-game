@@ -1,6 +1,6 @@
 import random    # For generating random numbers
 import sys # We will use sys.exit to exit the program
-import pygame
+import pygame #install pygame  "pip install pygame"
 from pygame.locals import * # Basic pygame imports
 
 # Global Variables for the game
@@ -11,9 +11,9 @@ SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 GROUNDY = SCREENHEIGHT * 0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
-PLAYER = 'C:/Users/my world/Desktop/game/gallery/sprites/bird.png'
-BACKGROUND = 'C:/Users/my world/Desktop/game/gallery/sprites/background.png'
-PIPE = 'C:/Users/my world/Desktop/game/gallery/sprites/pipe.png'
+PLAYER = 'enter folder your path/gallery/sprites/bird.png' #enter folder your path
+BACKGROUND = 'enter folder your path/gallery/sprites/background.png' #enter folder your path
+PIPE = 'enter folder your path/gallery/sprites/pipe.png' #enter folder your path
 
 def welcomeScreen():
     """
