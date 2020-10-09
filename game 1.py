@@ -189,30 +189,30 @@ if __name__ == "__main__":
     FPSCLOCK = pygame.time.Clock()
     pygame.display.set_caption('Flappy Bird by CodeWithHarry')
     GAME_SPRITES['numbers'] = ( 
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/0.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/1.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/2.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/3.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/4.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/5.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/6.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/7.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/8.png').convert_alpha(),
-        pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/9.png').convert_alpha(),
+        pygame.image.load('enter folder your path/gallery/sprites/0.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/1.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/2.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/3.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/4.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/5.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/6.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/7.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/8.png').convert_alpha(),#enter folder your path
+        pygame.image.load('enter folder your path/gallery/sprites/9.png').convert_alpha(),#enter folder your path
     )
 
-    GAME_SPRITES['message'] =pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/message.png').convert_alpha()
-    GAME_SPRITES['base'] =pygame.image.load('C:/Users/my world/Desktop/game/gallery/sprites/base.png').convert_alpha()
+    GAME_SPRITES['message'] =pygame.image.load('enter folder your path/gallery/sprites/message.png').convert_alpha()#enter folder your path
+    GAME_SPRITES['base'] =pygame.image.load('enter folder your path/game/gallery/sprites/base.png').convert_alpha()#enter folder your path
     GAME_SPRITES['pipe'] =(pygame.transform.rotate(pygame.image.load( PIPE).convert_alpha(), 180), 
     pygame.image.load(PIPE).convert_alpha()
     )
 
     # Game sounds
-    GAME_SOUNDS['die'] = pygame.mixer.Sound('C:/Users/my world/Desktop/game/gallery/audio/die.wav')
-    GAME_SOUNDS['hit'] = pygame.mixer.Sound('C:/Users/my world/Desktop/game/gallery/audio/hit.wav')
-    GAME_SOUNDS['point'] = pygame.mixer.Sound('C:/Users/my world/Desktop/game/gallery/audio/point.wav')
-    GAME_SOUNDS['swoosh'] = pygame.mixer.Sound('C:/Users/my world/Desktop/game/gallery/audio/swoosh.wav')
-    GAME_SOUNDS['wing'] = pygame.mixer.Sound('C:/Users/my world/Desktop/game/gallery/audio/wing.wav')
+    GAME_SOUNDS['die'] = pygame.mixer.Sound('enter folder your path/gallery/audio/die.wav')# enter folder your path
+    GAME_SOUNDS['hit'] = pygame.mixer.Sound('enter folder your path/gallery/audio/hit.wav')#enter folder your path
+    GAME_SOUNDS['point'] = pygame.mixer.Sound('enter folder your path/gallery/audio/point.wav')#enter folder your path
+    GAME_SOUNDS['swoosh'] = pygame.mixer.Sound('enter folder your path/gallery/audio/swoosh.wav')#enter folder your path
+    GAME_SOUNDS['wing'] = pygame.mixer.Sound('enter folder your path/gallery/audio/wing.wav')#enter folder your path
 
     GAME_SPRITES['background'] = pygame.image.load(BACKGROUND).convert()
     GAME_SPRITES['player'] = pygame.image.load(PLAYER).convert_alpha()
